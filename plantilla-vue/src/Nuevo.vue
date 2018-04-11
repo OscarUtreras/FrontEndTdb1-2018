@@ -4,9 +4,9 @@
     <ul class="user-form">
       <form >
         Nombre:
-        <input v-model="actor.actor_name" type="text" class="form-control"><br><br>
+        <input v-model="actor.firstName" type="text" class="form-control"><br><br>
         Apellido:
-        <input v-model="actor.actor_lastname" type="text" class="form-control"><br><br>
+        <input v-model="actor.lastName" type="text" class="form-control"><br><br>
         <button type="submit" class="btn btn-primary" v-on:click="signUp">
           Enviar
         </button>
@@ -22,8 +22,8 @@ export default {
       actor:
       {
         actorId: 15,
-        actor_name:'',
-        actor_lastname:'',
+        firstNamename:'',
+        lastName:'',
         lastUpdate: 1139988873000
       }
     }
